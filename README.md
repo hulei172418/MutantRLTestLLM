@@ -2,8 +2,6 @@
 
 This repository contains the prototype and replication package for **RIP-RL**, a method for LLM-based mutation test case generation. RIP-RL treats pre-generation program-evidence selection as a contextual bandit problem: for each target mutant, it constructs candidate evidence about mutation semantics, reach-infect-propagate conditions, callable entries, object construction, dependencies, compilation constraints, and observable assertions, then uses feedback from compilation and differential execution to adapt future evidence choices.
 
-The Chinese version is available in [README-zh.md](README-zh.md).
-
 The implementation is organized around three core modules:
 
 - `CodeKB/`: builds project-level knowledge from Java source code, including types, signatures, constructors, fields, imports, call relations, and dependency facts.
