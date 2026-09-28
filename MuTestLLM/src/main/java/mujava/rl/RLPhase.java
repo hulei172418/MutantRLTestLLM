@@ -1,0 +1,15 @@
+package mujava.rl;
+
+public enum RLPhase {
+    NOT_GENERATED,
+    GENERATED,
+    COMPILED,
+    ORIGINAL_PASSED,
+    TARGET_LIVE,
+    TARGET_KILLED,
+    COMPILE_FAILED,
+    ORIGINAL_FAILED,
+    TIMEOUT,
+    CRASHED,
+    EQUIVALENT_SUSPECTED
+}

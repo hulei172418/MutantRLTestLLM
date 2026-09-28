@@ -1,0 +1,27 @@
+# Java / Maven build output
+*.class
+**/target/
+
+# runtime logs
+logs/
+*.log
+
+# local third-party libraries
+**/lib/
+
+# local data / temporary files
+data/
+**/提示版本/
+
+# IDE settings
+.vscode/
+**/.vscode/
+
+# generated or private docs
+docs/
+**/docs/
+
+# compressed backups
+*.rar
+*.zip
+*.7z
